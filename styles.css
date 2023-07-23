@@ -1,13 +1,13 @@
 body{
     margin: auto;
-    padding: auto;
+    padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 table,th,td{
     width: auto;
     margin: auto;
-    font-size: 15
-    px;
+    font-size: 13px;
     text-align: center;
-    border: 2px solid black;
+    border: 1px solid black;
+  border-collapse: collapse;
 }
