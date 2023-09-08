@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const router = express.Router();
 router.get('css',function(req,res){
-  res.sendFile(path.join(__dirname+'Public/styles.css'));
+  res.sendFile(path.join(__dirname+'/styles.css'));
 });
 router.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/index.html'));
