@@ -210,6 +210,67 @@ font-family= Arial, Helvetica, sans-serif;>
             <td>Docker Hub is a cloud-based registry service provided by Docker that allows you to discover, share, and distribute Docker images. It hosts a vast collection of pre-built images.</td>
             <td><a href="https://hub.docker.com/" target="_blank">Docker Hub</a></td>
         </tr>
+<tr>
+    <td>31</td>
+    <td>Terraform</td>
+    <td>Terraform is an open-source infrastructure as code (IaC) tool that allows you to define and provision infrastructure resources using declarative configuration files. It enables the automation of infrastructure provisioning and management.</td>
+    <td><a href="https://www.terraform.io/" target="_blank">Terraform Official Website</a></td>
+</tr>
+<tr>
+    <td>32</td>
+    <td>Infrastructure as Code (IaC)</td>
+    <td>Infrastructure as Code (IaC) is a practice of managing and provisioning infrastructure resources using code and automation tools like Terraform. IaC enables version control, consistency, and repeatability of infrastructure deployments.</td>
+    <td><a href="https://www.terraform.io/intro/what-is-terraform.html" target="_blank">Terraform - What is Terraform?</a></td>
+</tr>
+<tr>
+    <td>33</td>
+    <td>Terraform Configuration Language (HCL)</td>
+    <td>Terraform Configuration Language (HCL) is the domain-specific language used to write configuration files for Terraform. It allows you to define resources, variables, and dependencies in a human-readable format.</td>
+    <td><a href="https://www.terraform.io/docs/language/index.html" target="_blank">Terraform - Configuration Language</a></td>
+</tr>
+<tr>
+    <td>34</td>
+    <td>Terraform Module</td>
+    <td>A Terraform module is a reusable and self-contained set of Terraform configurations that define a specific piece of infrastructure. Modules promote code organization and reusability.</td>
+    <td><a href="https://www.terraform.io/docs/modules/index.html" target="_blank">Terraform - Modules</a></td>
+</tr>
+<tr>
+    <td>35</td>
+    <td>Provider</td>
+    <td>In Terraform, a provider is a plugin that defines and configures the resources and services available for provisioning. Providers are responsible for interacting with APIs of various infrastructure platforms, such as AWS, Azure, or GCP.</td>
+    <td><a href="https://www.terraform.io/docs/providers/index.html" target="_blank">Terraform - Providers</a></td>
+</tr>
+<tr>
+    <td>36</td>
+    <td>Terraform State</td>
+    <td>Terraform state is a representation of the resources managed by Terraform and their current state. It helps Terraform track resource changes and manage updates, ensuring infrastructure drift detection.</td>
+    <td><a href="https://www.terraform.io/docs/state/index.html" target="_blank">Terraform - State</a></td>
+</tr>
+<tr>
+    <td>37</td>
+    <td>Plan and Apply</td>
+    <td>In Terraform, "plan" and "apply" are two essential commands. "terraform plan" generates an execution plan to show what changes will be made to the infrastructure. "terraform apply" then applies those changes if confirmed.</td>
+    <td><a href="https://www.terraform.io/docs/commands/plan.html" target="_blank">Terraform - terraform plan</a><br><a href="https://www.terraform.io/docs/commands/apply.html" target="_blank">Terraform - terraform apply</a></td>
+</tr>
+<tr>
+    <td>38</td>
+    <td>Remote State Backend</td>
+    <td>A remote state backend is a storage location for Terraform state files, allowing teams to collaborate and share state data securely. Common backends include Amazon S3, Azure Blob Storage, and HashiCorp Consul.</td>
+    <td><a href="https://www.terraform.io/docs/language/state/backends.html" target="_blank">Terraform - State Backends</a></td>
+</tr>
+<tr>
+    <td>39</td>
+    <td>Variable</td>
+    <td>Terraform variables allow you to parameterize your configurations, making them more flexible and reusable. You can define variables and assign values in your Terraform code or use input variables.</td>
+    <td><a href="https://www.terraform.io/docs/language/values/variables.html" target="_blank">Terraform - Variables</a></td>
+</tr>
+<tr>
+    <td>40</td>
+    <td>Output</td>
+    <td>Outputs in Terraform allow you to define values that are exposed to users or other Terraform configurations. They provide a way to capture and share information about the infrastructure being provisioned.</td>
+    <td><a href="https://www.terraform.io/docs/language/values/outputs.html" target="_blank">Terraform - Outputs</a></td>
+</tr>
+
         
     </table>
 </body>
