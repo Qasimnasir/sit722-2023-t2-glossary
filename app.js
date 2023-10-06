@@ -270,12 +270,71 @@ font-family= Arial, Helvetica, sans-serif;>
     <td>Outputs in Terraform allow you to define values that are exposed to users or other Terraform configurations. They provide a way to capture and share information about the infrastructure being provisioned.</td>
     <td><a href="https://www.terraform.io/docs/language/values/outputs.html" target="_blank">Terraform - Outputs</a></td>
 </tr>
-
-        
+</tr>
+<tr>
+    <td>41</td>
+    <td>Kubernetes (K8s)</td>
+    <td>Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides features for container scheduling, load balancing, and self-healing.</td>
+    <td><a href="https://kubernetes.io/" target="_blank">Kubernetes Official Website</a></td>
+</tr>
+<tr>
+    <td>42</td>
+    <td>Pod</td>
+    <td>A pod is the smallest deployable unit in Kubernetes. It can contain one or more containers that share the same network namespace and storage. Pods are used to run and scale containers together.</td>
+    <td><a href="https://kubernetes.io/docs/concepts/workloads/pods/" target="_blank">Kubernetes - Pods</a></td>
+</tr>
+<tr>
+    <td>43</td>
+    <td>Node</td>
+    <td>A Node in Kubernetes is a worker machine (physical or virtual) that runs containers. It is responsible for executing the workloads scheduled by the control plane components.</td>
+    <td><a href="https://kubernetes.io/docs/concepts/architecture/nodes/" target="_blank">Kubernetes - Nodes</a></td>
+</tr>
+<tr>
+    <td>44</td>
+    <td>Kubelet</td>
+    <td>Kubelet is an agent running on each Node in the cluster. It ensures that containers are running in a Pod and takes care of communication between the control plane and the Node.</td>
+    <td><a href="https://kubernetes.io/docs/concepts/overview/components/#kubelet" target="_blank">Kubernetes - Kubelet</a></td>
+</tr>
+<tr>
+    <td>45</td>
+    <td>Control Plane</td>
+    <td>The Control Plane is the set of components in Kubernetes that manage the cluster's overall state. It includes the API server, etcd, controller manager, and scheduler.</td>
+    <td><a href="https://kubernetes.io/docs/concepts/architecture/control-plane/" target="_blank">Kubernetes - Control Plane</a></td>
+</tr>
+<tr>
+    <td>46</td>
+    <td>ReplicaSet</td>
+    <td>A ReplicaSet is a Kubernetes controller that ensures a specified number of identical Pod replicas are running. It helps maintain availability and scale applications.</td>
+    <td><a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/" target="_blank">Kubernetes - ReplicaSet</a></td>
+</tr>
+<tr>
+    <td>47</td>
+    <td>Service</td>
+    <td>A Service in Kubernetes defines a logical set of Pods and a policy to access them. It enables load balancing and provides network access to Pods.</td>
+    <td><a href="https://kubernetes.io/docs/concepts/services-networking/service/" target="_blank">Kubernetes - Services</a></td>
+</tr>
+<tr>
+    <td>48</td>
+    <td>Ingress</td>
+    <td>Ingress is an API object in Kubernetes used to manage external access to services within the cluster, typically for HTTP and HTTPS routing and traffic control.</td>
+    <td><a href="https://kubernetes.io/docs/concepts/services-networking/ingress/" target="_blank">Kubernetes - Ingress</a></td>
+</tr>
+<tr>
+    <td>49</td>
+    <td>Namespace</td>
+    <td>A Namespace in Kubernetes provides a virtual partition within a cluster, allowing multiple teams or applications to coexist safely. It helps with resource isolation and management.</td>
+    <td><a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/" target="_blank">Kubernetes - Namespaces</a></td>
+</tr>
+<tr>
+    <td>50</td>
+    <td>Persistent Volume (PV)</td>
+    <td>A Persistent Volume in Kubernetes represents a piece of network-attached storage with lifecycle independent of any individual Pod. It allows data to persist across Pod restarts.</td>
+    <td><a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/" target="_blank">Kubernetes - Persistent Volumes</a></td>
+</tr>   
     </table>
 </body>
 </html>
-  `);
+  ,`);
 });
 
 // Start the server
